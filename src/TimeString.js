@@ -3,7 +3,7 @@
 const AsyncObject = require('@guseyn/cutie').AsyncObject;
 
 // Represented result is string
-class TimeAsString extends AsyncObject {
+class TimeString extends AsyncObject {
 
   constructor(date) {
     super(date);
@@ -17,4 +17,4 @@ class TimeAsString extends AsyncObject {
 
 }
 
-module.exports = TimeAsString;
+module.exports = TimeString;
