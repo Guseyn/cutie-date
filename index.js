@@ -38,7 +38,7 @@ module.exports = {
   ParsedDate: require('./src/ParsedDate'),
   Seconds: require('./src/Seconds'),
   Time: require('./src/Time'),
-  TimeAsString: require('./src/TimeAsString'),
+  TimeString: require('./src/TimeString'),
   TimezoneOffset: require('./src/TimezoneOffset'),
   UTC: require('./src/UTC'),
   UTCDayOfMonth: require('./src/UTCDayOfMonth'),
