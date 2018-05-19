@@ -9,7 +9,7 @@ class Now extends AsyncObject {
     super();
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return Date.now();
   }
 

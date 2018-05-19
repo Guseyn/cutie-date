@@ -9,7 +9,7 @@ class DateValue extends AsyncObject {
     super(date);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date) => {
       return date.valueOf();
     }

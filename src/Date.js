@@ -3,13 +3,13 @@
 const AsyncObject = require('@guseyn/cutie').AsyncObject;
 
 // Represented result is date
-class Date extends AsyncObject {
+class CutieDate extends AsyncObject {
 
   constructor(...params) {
     super(...params);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (...params) => {
       return new Date(...params);
     }
@@ -17,4 +17,4 @@ class Date extends AsyncObject {
 
 }
 
-module.exports = Date;
+module.exports = CutieDate;

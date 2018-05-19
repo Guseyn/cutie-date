@@ -9,7 +9,7 @@ class DayOfWeek extends AsyncObject {
     super(date);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date) => {
       return date.getDay();
     }

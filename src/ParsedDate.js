@@ -9,7 +9,7 @@ class ParsedDate extends AsyncObject {
     super(dateString);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (dateString) => {
       return Date.parse(dateString);
     }
