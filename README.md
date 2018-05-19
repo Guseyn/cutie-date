@@ -1,2 +1,2 @@
 # cutie-date
-Cutie extension for for work with Date object in JavaScript.
+Cutie extension for work with Date object in JavaScript.
