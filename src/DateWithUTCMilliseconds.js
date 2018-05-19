@@ -9,7 +9,7 @@ class DateWithUTCMilliseconds extends AsyncObject {
     super(date, milliseconds);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, milliseconds) => {
       date.setUTCMilliseconds(day);
       return date;

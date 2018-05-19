@@ -9,7 +9,7 @@ class DateWithMilliseconds extends AsyncObject {
     super(date, milliseconds);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, milliseconds) => {
       date.setMilliseconds(day);
       return date;

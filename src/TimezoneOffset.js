@@ -9,7 +9,7 @@ class TimezoneOffset extends AsyncObject {
     super(date);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date) => {
       return date.getTimezoneOffset();
     }

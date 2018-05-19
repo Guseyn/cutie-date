@@ -9,7 +9,7 @@ class DateWithSeconds extends AsyncObject {
     super(date, seconds);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, seconds) => {
       date.setSeconds(seconds);
       return date;

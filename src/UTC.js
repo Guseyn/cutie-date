@@ -9,7 +9,7 @@ class UTC extends AsyncObject {
     super(...params);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (...params) => {
       return Date.UTC(...params);
     }

@@ -9,7 +9,7 @@ class DateWithTime extends AsyncObject {
     super(date, time);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, time) => {
       date.setTime(time);
       return date;

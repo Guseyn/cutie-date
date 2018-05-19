@@ -9,7 +9,7 @@ class DateWithHours extends AsyncObject {
     super(date, hours);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, hours) => {
       date.setHours(hours);
       return date;

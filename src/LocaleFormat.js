@@ -9,7 +9,7 @@ class LocaleFormat extends AsyncObject {
     super(date, format);
   }
 
-  definedSynCall() {
+  definedSyncCall() {
     return (date, format) => {
       return date.toLocaleFormat(format);
     }
