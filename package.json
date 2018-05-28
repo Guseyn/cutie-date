@@ -1,6 +1,6 @@
 {
   "name": "@guseyn/cutie-date",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cutie extension for work with Date object in JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "date"
   ],
   "dependencies": {
-    "@guseyn/cutie": "1.3.7"
+    "@guseyn/cutie": "1.4.0"
   },
   "author": "guseyn",
   "license": "MIT",
