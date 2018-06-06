@@ -10,7 +10,9 @@ class Now extends AsyncObject {
   }
 
   definedSyncCall() {
-    return Date.now();
+    return () => {
+      return Date.now();
+    }
   }
 
 }

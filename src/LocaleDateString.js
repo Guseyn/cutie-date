@@ -5,13 +5,13 @@ const AsyncObject = require('@guseyn/cutie').AsyncObject;
 // Represented result is string
 class LocaleDateString extends AsyncObject {
 
-  constructor(date) {
-    super(date);
+  constructor(date, ...args) {
+    super(date, ...args);
   }
 
   definedSyncCall() {
-    return (date) => {
-      return date.toLocaleDateString();
+    return (date, ...args) => {
+      return date.toLocaleDateString(...args);
     }
   }
 

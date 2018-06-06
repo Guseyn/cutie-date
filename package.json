@@ -4,7 +4,7 @@
   "description": "Cutie extension for work with Date object in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test-executor"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,10 @@
     "date"
   ],
   "dependencies": {
-    "@guseyn/cutie": "1.4.0"
+    "@guseyn/cutie": "1.4.0",
+    "@guseyn/cutie-assert": "1.1.0",
+    "@guseyn/cutie-is": "1.0.3",
+    "test-executor": "1.0.8"
   },
   "author": "guseyn",
   "license": "MIT",
