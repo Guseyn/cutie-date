@@ -53,7 +53,7 @@ For more information about parameters in the async objects visit [MDN docs for D
 | `Milliseconds` | `date.getMilliseconds` | `date` | `number` |
 | `Minutes` | `date.getMinutes` | `date` | `number` |
 | `Month` | `date.getMonth` | `date` | `number` |
-| `Now` | `Date.now` | `` | `date` |
+| `Now` | `Date.now` |  | `date` |
 | `ParsedDate` | `Date.parse` | `date` | `number(ms)` |
 | `Seconds` | `date.getSeconds` | `date` | `number` |
 | `Time` | `date.getTime` | `date` | `number(ms)` |
