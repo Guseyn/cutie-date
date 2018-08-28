@@ -14,7 +14,7 @@ You can find examples of using this library in the [test directory](https://gith
 ```js
 const {
   // Needed async objects here from the table below
-} = require('@guseyn/cutie-date');
+} = require('@cuties/date');
 ```
 For more information about parameters in the async objects visit [MDN docs for Date global object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
@@ -71,6 +71,6 @@ For more information about parameters in the async objects visit [MDN docs for D
 | `UTCString` | `date.toUTCString` | `date` | `string` |
 | `Year` | `date.getYear` | `date` | `number` |
 
-[npm-image]: https://img.shields.io/npm/v/@guseyn/cutie-date.svg
-[npm-url]: https://npmjs.org/package/@guseyn/cutie-date
+[npm-image]: https://img.shields.io/npm/v/@cuties/date.svg
+[npm-url]: https://npmjs.org/package/@cuties/date
 

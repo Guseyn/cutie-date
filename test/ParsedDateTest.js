@@ -3,10 +3,10 @@
 
 const {
   Assertion
-} = require('@guseyn/cutie-assert');
+} = require('@cuties/assert');
 const {
   IsNumber
-} = require('@guseyn/cutie-is');
+} = require('@cuties/is');
 const {
   ParsedDate
 } = require('./../index');
