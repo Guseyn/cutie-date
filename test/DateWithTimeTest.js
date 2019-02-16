@@ -1,16 +1,16 @@
- 'use strict'
+'use strict'
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsDate
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   Date,
   DateWithTime,
   Time
-} = require('./../index');
+} = require('./../index')
 
 new Assertion(
   new IsDate(
@@ -18,4 +18,4 @@ new Assertion(
       new Date(), new Time(new Date())
     )
   )
-).call();
+).call()

@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is number(ms)
 class Now extends AsyncObject {
-
-  constructor() {
-    super();
+  constructor () {
+    super()
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return () => {
-      return Date.now();
+      return Date.now()
     }
   }
-
 }
 
-module.exports = Now;
+module.exports = Now

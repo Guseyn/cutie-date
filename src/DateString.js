@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is string
 class DateString extends AsyncObject {
-
-  constructor(date) {
-    super(date);
+  constructor (date) {
+    super(date)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (date) => {
-      return date.toDateString();
+      return date.toDateString()
     }
   }
-
 }
 
-module.exports = DateString;
+module.exports = DateString

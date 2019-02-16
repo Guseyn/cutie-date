@@ -2,14 +2,14 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsString
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   Date,
   ISOString
-} = require('./../index');
+} = require('./../index')
 
 new Assertion(
   new IsString(
@@ -17,4 +17,4 @@ new Assertion(
       new Date()
     )
   )
-).call();
+).call()

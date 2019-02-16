@@ -1,21 +1,19 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is date
 class DateWithMonth extends AsyncObject {
-
-  constructor(date, month) {
-    super(date, month);
+  constructor (date, month) {
+    super(date, month)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (date, month) => {
-      date.setMonth(month);
-      return date;
+      date.setMonth(month)
+      return date
     }
   }
-
 }
 
-module.exports = DateWithMonth;
+module.exports = DateWithMonth

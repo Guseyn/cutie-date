@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is number(ms)
 class ParsedDate extends AsyncObject {
-
-  constructor(dateString) {
-    super(dateString);
+  constructor (dateString) {
+    super(dateString)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (dateString) => {
-      return Date.parse(dateString);
+      return Date.parse(dateString)
     }
   }
-
 }
 
-module.exports = ParsedDate;
+module.exports = ParsedDate
