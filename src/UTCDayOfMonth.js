@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is number(1-31)
 class UTCDayOfMonth extends AsyncObject {
-
-  constructor(date) {
-    super(date);
+  constructor (date) {
+    super(date)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (date) => {
-      return date.getUTCDate();
+      return date.getUTCDate()
     }
   }
-
 }
 
-module.exports = UTCDayOfMonth;
+module.exports = UTCDayOfMonth

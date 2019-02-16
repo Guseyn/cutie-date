@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is number(4 digits)
 class FullYear extends AsyncObject {
-
-  constructor(date) {
-    super(date);
+  constructor (date) {
+    super(date)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (date) => {
-      return date.getFullYear();
+      return date.getFullYear()
     }
   }
-
 }
 
-module.exports = FullYear;
+module.exports = FullYear

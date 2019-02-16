@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is number(ms)
 class UTC extends AsyncObject {
-
-  constructor(...params) {
-    super(...params);
+  constructor (...params) {
+    super(...params)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (...params) => {
-      return Date.UTC(...params);
+      return Date.UTC(...params)
     }
   }
-
 }
 
-module.exports = UTC;
+module.exports = UTC

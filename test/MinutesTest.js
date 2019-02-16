@@ -2,14 +2,14 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsNumber
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   Date,
   Minutes
-} = require('./../index');
+} = require('./../index')
 
 new Assertion(
   new IsNumber(
@@ -17,4 +17,4 @@ new Assertion(
       new Date()
     )
   )
-).call();
+).call()

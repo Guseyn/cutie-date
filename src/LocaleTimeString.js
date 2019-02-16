@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is string
 class LocaleTimeString extends AsyncObject {
-
-  constructor(date, ...args) {
-    super(date, ...args);
+  constructor (date, ...args) {
+    super(date, ...args)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (date, ...args) => {
-      return date.toLocaleTimeString(...args);
+      return date.toLocaleTimeString(...args)
     }
   }
-
 }
 
-module.exports = LocaleTimeString;
+module.exports = LocaleTimeString
