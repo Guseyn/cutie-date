@@ -8,7 +8,7 @@ class DateWithUTCMonth extends AsyncObject {
     super(date, month)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, month) => {
       date.setUTCMonth(month)
       return date

@@ -8,7 +8,7 @@ class LocaleTimeString extends AsyncObject {
     super(date, ...args)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, ...args) => {
       return date.toLocaleTimeString(...args)
     }

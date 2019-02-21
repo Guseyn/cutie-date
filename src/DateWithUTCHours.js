@@ -8,7 +8,7 @@ class DateWithUTCHours extends AsyncObject {
     super(date, hours)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, hours) => {
       date.setUTCHours(hours)
       return date
