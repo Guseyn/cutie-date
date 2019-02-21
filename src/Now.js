@@ -8,7 +8,7 @@ class Now extends AsyncObject {
     super()
   }
 
-  definedSyncCall () {
+  syncCall () {
     return () => {
       return Date.now()
     }

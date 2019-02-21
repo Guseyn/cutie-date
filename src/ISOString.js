@@ -8,7 +8,7 @@ class ISOString extends AsyncObject {
     super(date)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date) => {
       return date.toISOString()
     }

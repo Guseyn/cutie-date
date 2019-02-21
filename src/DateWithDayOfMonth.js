@@ -8,7 +8,7 @@ class DateWithDayOfMonth extends AsyncObject {
     super(date, day)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, day) => {
       date.setDate(day)
       return date

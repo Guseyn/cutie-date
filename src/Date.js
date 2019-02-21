@@ -8,7 +8,7 @@ class CutieDate extends AsyncObject {
     super(...params)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (...params) => {
       return new Date(...params)
     }

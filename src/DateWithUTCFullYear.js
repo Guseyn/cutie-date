@@ -8,7 +8,7 @@ class DateWithUTCFullYear extends AsyncObject {
     super(date, year)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, year) => {
       date.setUTCFullYear(year)
       return date

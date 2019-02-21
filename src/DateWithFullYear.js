@@ -8,7 +8,7 @@ class DateWithFullYear extends AsyncObject {
     super(date, year)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (date, year) => {
       date.setFullYear(year)
       return date
